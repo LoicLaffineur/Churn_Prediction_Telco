@@ -1,9 +1,9 @@
-# Réduisez le taus de désabonnement de vos clients avec l'analyse prédictive.
+# Réduisez le taux de désabonnement de vos clients avec l'analyse prédictive.
 
 ## 🎯 Problématique client 
 Dans le secteur du télécoms, acquérir des clients est une tâche bien plus couteuse que la fidélisation d'un client déjà existant. C'est pourquoi, identifier les clients susceptibles de se désabonner (ci-après churn) permet d'agir en amont et de réduire les pertes de revenus.
 
-## Notre solution : 
+## 💡 Notre solution : 
 
 Nous avons développer un modèle prédictif capable d'identifier les clients a risque de désabonnement avec : 
 - 80% d'accuracy et 53% de recall (capacité à détécter les vrais clients a risques)
@@ -11,10 +11,10 @@ Nous avons développer un modèle prédictif capable d'identifier les clients a 
 - Des recommandations actionnables : cibles les clients avec des offres personnalisées à leur profils (sur le plan business), ajouter les seuils de prédiction pour optimiser la détection en fonction des besoins (sur le plan technique).
 - Une application StreamLit utilisable pour de futurs profil et améliorable en ajoutant diverses informations (SHAP, ...)
 
-## Technologies utilisées  : 
+## 🛠️ Technologies utilisées  : 
 Python, Pandas, Scikit-learn, XGBoost, Logistic Regression, Random Forest, SVM, Matplotlib, Seaborn, SHAP
 
-## Résultats attendus pour l'entreprise : 
+## 🚀 Résultats attendus pour l'entreprise : 
 - Réduction des coûts : Moins de perte = économies sur les campagnes d'acquisition.
 - Amélioration de l'expérience client : Des offres proactives et adaptées pour les clients à risque.
 - Prise de décision data-driven
