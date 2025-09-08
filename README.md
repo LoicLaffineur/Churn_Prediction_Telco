@@ -1,12 +1,30 @@
-# Détection de Churn - Données Télécom
+# Réduisez le taus de désabonnement de vos clients avec l'analyse prédictive.
 
-## 🎯 Objectif
-Prédire si un client risque de résilier son abonnement.
+## 🎯 Problématique client 
+Dans le secteur du télécoms, acquérir des clients est une tâche bien plus couteuse que la fidélisation d'un client déjà existant. C'est pourquoi, identifier les clients susceptibles de se désabonner (ci-après churn) permet d'agir en amont et de réduire les pertes de revenus.
+
+## Notre solution : 
+
+Nous avons développer un modèle prédictif capable d'identifier les clients a risque de désabonnement avec : 
+- 80% d'accuracy et 53% de recall (capacité à détécter les vrais clients a risques)
+- Une analyse des variables clés : type de contrat, méthode de paiement, services internet souscrits,... .
+- Des recommandations actionnables : cibles les clients avec des offres personnalisées à leur profils (sur le plan business), ajouter les seuils de prédiction pour optimiser la détection en fonction des besoins (sur le plan technique).
+- Une application StreamLit utilisable pour de futurs profil et améliorable en ajoutant diverses informations (SHAP, ...)
+
+## Technologies utilisées  : 
+Python, Pandas, Scikit-learn, XGBoost, Logistic Regression, Random Forest, SVM, Matplotlib, Seaborn, SHAP
+
+## Résultats attendus pour l'entreprise : 
+- Réduction des coûts : Moins de perte = économies sur les campagnes d'acquisition.
+- Amélioration de l'expérience client : Des offres proactives et adaptées pour les clients à risque.
+- Prise de décision data-driven
+
+----------------------------------------------------------------------------------
 
 ## 🗂️ Données
 Source : IBM Telco dataset (7043 clients, 21 variables)
 
-## 🔍 Méthodologie
+## 🔍 Méthodologie : 
 - EDA : visualisation des profils de churners
 - Prétraitement : encodage, imputation, scaling
 - Modélisation : Logistic Regression, Random Forest, XGBoost, KNN, SVC
