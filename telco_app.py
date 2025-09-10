@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
+import numpy as np.
+import sklearn
 import joblib
 
 # Load model and preprocessor
