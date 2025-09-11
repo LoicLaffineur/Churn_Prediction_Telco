@@ -15,10 +15,10 @@ import matplotlib.pyplot as plt
 import streamlit.components.v1 as components
 
 # Load model and preprocessor
-model = joblib.load("reg_log_model_churn.pkl")
-scaler = joblib.load("scaler.pkl")
-cols = joblib.load("features.pkl")  # List of features used in the model
-X_test = joblib.load('X_test.pkl')
+model = joblib.load("Streamlit_app/reg_log_model_churn.pkl")
+scaler = joblib.load("Streamlit_app/scaler.pkl")
+cols = joblib.load("Streamlit_app/features.pkl")  # List of features used in the model
+X_test = joblib.load('Streamlit_app/X_test.pkl')
 
 # App title
 st.title("📉 Telco Customer Churn Prediction")
