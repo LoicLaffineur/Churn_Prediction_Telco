@@ -38,8 +38,4 @@ Source : IBM Telco dataset (7043 clients, 21 variables)
 - F1 = 0.58
 - ROC-AUC = 0.84
 - Variables importantes : Contract, PaymentMethod, InternetService
-- https://churnpython-rvye97ruvtvqtgwowbdmtz.streamlit.app/
-
-## 🧠 Pistes d’amélioration
-- Améliorer les résulats en Recall en utilisant un rééchantillonnage (SMOTE, Tomek ?)
-- Fixer un seuil de prédiction different pour répondre à nos besoins. (p=0.5 actuellement)
+- [https://churnpython-rvye97ruvtvqtgwowbdmtz.streamlit.app/](https://laffineur-telco-churn.streamlit.app/)
