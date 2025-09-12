@@ -57,3 +57,5 @@ Source : IBM Telco dataset (7043 clients, 21 variables)
 ## 🤖 Application Streamlit : 
 
 [https://churnpython-rvye97ruvtvqtgwowbdmtz.streamlit.app/](https://laffineur-telco-churn.streamlit.app/)
+
+<img width="1581" height="827" alt="str" src="https://github.com/user-attachments/assets/410022ff-663e-40c2-8af2-8b70522557a5" />
