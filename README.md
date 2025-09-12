@@ -6,7 +6,7 @@ Dans le secteur du télécoms, acquérir des clients est une tâche bien plus co
 ## 💡 Notre solution : 
 
 Nous avons développer un modèle prédictif capable d'identifier les clients a risque de désabonnement avec : 
-- 80% d'accuracy et 53% de recall (capacité à détécter les vrais clients a risques)
+- 76% d'accuracy et **81% de recall** (capacité à détécter les vrais clients a risques)
 - Une analyse des variables clés : type de contrat, méthode de paiement, services internet souscrits,... .
 - Des recommandations actionnables : cibles les clients avec des offres personnalisées à leur profils (sur le plan business), ajouter les seuils de prédiction pour optimiser la détection en fonction des besoins (sur le plan technique).
 - Une application StreamLit utilisable pour de futurs profil et améliorable en ajoutant diverses informations (SHAP, ...)
@@ -28,7 +28,7 @@ Source : IBM Telco dataset (7043 clients, 21 variables)
 - EDA : visualisation des profils de churners
 - Prétraitement : encodage, imputation, scaling
 - Modélisation : Logistic Regression, Random Forest, XGBoost, KNN, SVC
-- Évaluation : accuracy, recall, precision, F1-score, Precision-Recall curve, confusion matrix
+- Évaluation : accuracy, **recall**, precision, F1-score, Precision-Recall curve, confusion matrix
 - Interprétabilité : SHAP, feature importance
 
 ## 📊 Résultats
@@ -54,6 +54,6 @@ Source : IBM Telco dataset (7043 clients, 21 variables)
 
 <img width="884" height="497" alt="shap" src="https://github.com/user-attachments/assets/b0310bce-93ba-4c4d-9713-2635d6f6dd11" />
 
-## Application Streamlit : 
+## 🤖 Application Streamlit : 
 
 [https://churnpython-rvye97ruvtvqtgwowbdmtz.streamlit.app/](https://laffineur-telco-churn.streamlit.app/)
