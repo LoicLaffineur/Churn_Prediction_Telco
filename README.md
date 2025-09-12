@@ -28,14 +28,33 @@ Source : IBM Telco dataset (7043 clients, 21 variables)
 - EDA : visualisation des profils de churners
 - Prétraitement : encodage, imputation, scaling
 - Modélisation : Logistic Regression, Random Forest, XGBoost, KNN, SVC
-- Évaluation : accuracy, recall, precision, F1-score, ROC-AUC, confusion matrix
+- Évaluation : accuracy, recall, precision, F1-score, Precision-Recall curve, confusion matrix
 - Interprétabilité : SHAP, feature importance
 
 ## 📊 Résultats
-- Meilleur modèle : XGBoost
-- Accuracy = 0.80
-- Recall = 0.53
-- F1 = 0.58
-- ROC-AUC = 0.84
-- Variables importantes : Contract, PaymentMethod, InternetService
+
+#### Résulats finaux : 
+
+<img width="619" height="628" alt="pr_churn" src="https://github.com/user-attachments/assets/7daf1994-0bb5-4933-ae0b-626b7ede9d88" />
+
+<img width="485" height="401" alt="res_fin_churn" src="https://github.com/user-attachments/assets/13d3dfdd-f2eb-4f74-ac2e-eb8ff104079e" />
+
+#### Meilleur modèle : **Régression Logistique avec seuil de décision à 0.29**
+- Accuracy = 0.76
+- Recall = **0.81**
+- Precision = 0.52
+- F1 = 0.64
+- Variables importantes : Insulin, Glucose, Age
+
+#### Matrice de confusion finale : 
+
+<img width="507" height="455" alt="cm_rl" src="https://github.com/user-attachments/assets/b52e5083-3deb-46a2-b6c5-f312312ef4e4" />
+
+#### SHAP : 
+
+<img width="884" height="497" alt="shap" src="https://github.com/user-attachments/assets/b0310bce-93ba-4c4d-9713-2635d6f6dd11" />
+
+
+
+
 - [https://churnpython-rvye97ruvtvqtgwowbdmtz.streamlit.app/](https://laffineur-telco-churn.streamlit.app/)
